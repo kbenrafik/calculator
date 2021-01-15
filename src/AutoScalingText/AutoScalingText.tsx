@@ -7,12 +7,6 @@ export const AutoScalingText: React.FC<AutoScalingTextProps> = (props) => {
   const node = React.useRef<HTMLDivElement>(null);
 
   React.useEffect(() => {
-    // const parentNode = node?.parentNode;
-
-    // const availableWidth = parentNode.offsetWidth;
-    // const actualWidth = node?.offsetWidth;
-    // const actualScale = availableWidth / actualWidth;
-    // const actualScale = availableWidth / actualWidth;
     const actualScale = 2;
 
     if (scale === actualScale) return;
