@@ -1,0 +1,1 @@
+export { AutoScalingText } from "./AutoScalingText";
